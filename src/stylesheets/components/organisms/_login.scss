@@ -1,0 +1,42 @@
+.login-card {
+  max-width: 300px;
+  padding: 1em;
+  margin: auto;
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-input {
+    height:30px;
+    background-color: $light;
+    border-radius: 3px;
+    margin-bottom: .5em;
+    padding-left: .5em;
+    color: white;
+  }
+
+  .login-input::placeholder {
+    color: white;
+    opacity: .5;
+
+  }
+
+  .login-submit {
+    height:30px;
+    margin-bottom: 0;
+    margin-top: .5em;
+    background-color: $hightlight;
+    color: white;
+    box-sizing: content-box;
+    font-weight: bold;
+  }
+
+  .card-title {
+    color: white ;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+}

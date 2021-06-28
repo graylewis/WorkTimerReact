@@ -1,0 +1,114 @@
+.clock-card {
+  background-color: $medium;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 300px;
+  max-width: 500px;
+  padding: .5em;
+  align-items: center;
+  justify-content: center;
+  .time-display {
+    box-sizing: border-box;
+    width: calc(100%);
+    background-color: $light;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 3px solid $light;
+    padding: 4px;
+
+    .display-label {
+      border-bottom: 1.5px solid white;
+
+      display: inline;
+
+      font: bold 16px 'Oxygen';
+      color: white;
+
+      position: relative;
+      top: 6px;
+      width: 0;
+      min-width: 100%;
+
+    }
+
+    .display-number {
+      font: normal 65px 'Oxygen';
+
+      padding: 0;
+      position: relative;
+      top: 2px;
+    }
+
+  }
+  .timer-active {
+    border: 3px solid $hightlight2;
+  }
+}
+
+button {
+  background-color: $hightlight;
+  color: white;
+
+  border: none;
+  margin-top: 8px;
+  width: 100%;
+  height: 45px;
+
+  font: bold 17px 'Oxygen', sans-serif;
+  border-radius: 4px;
+
+  transition: box-shadow .15s;
+}
+
+button:focus {
+  box-shadow: none;
+  box-shadow: 0 0 6px $hightlight;
+
+  outline: none;
+}
+
+button:hover {
+  background-color: $hightlight2;
+}
+
+.time-listings {
+  width: 40%;
+  max-width: 500px;
+  margin: 0;
+  margin-top: 0.5em;
+  padding: 0;
+  color: $dark;
+  max-height: 500px;
+  overflow: scroll;
+  color: white;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+ul::-webkit-scrollbar {
+  display: none;
+}
+.time-entry-container {
+  margin: auto;
+  margin-bottom: .5em;
+}
+.time-entry {
+  list-style: none;
+  display: block;
+  background-color: $light;
+  border-radius: 3px;
+
+  text-decoration: none;
+  font: normal 18px 'Oxygen';
+  line-height: 16px;
+
+  padding: .5em;
+  margin-bottom: .25em;
+
+  box-sizing: border-box;
+}
+.time-entry:last-of-type {
+  margin-bottom: 0;
+}

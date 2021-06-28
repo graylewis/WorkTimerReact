@@ -1,0 +1,29 @@
+.cta {
+
+  margin-top: 2em;
+  width: 350px;
+  padding: 12px;
+
+  .cta-link {
+    height: 35px;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+
+    color: white;
+
+    border-radius: 3px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .register {
+    background-color: $hightlight;
+    margin-top: .5em;
+  }
+  .login {
+    background-color: $light;
+  }
+}

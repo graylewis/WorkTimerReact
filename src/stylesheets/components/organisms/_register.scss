@@ -1,0 +1,57 @@
+.register-card {
+  max-width: 300px;
+  padding: 1em;
+  margin: auto;
+
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-input {
+    height:30px;
+    background-color: $light;
+    border-radius: 3px;
+    margin-bottom: .5em;
+    padding-left: .5em;
+    color: white;
+  }
+
+
+  .register-input::placeholder {
+    color: white;
+    opacity: .5;
+
+  }
+
+  .names-container {
+    display: flex;
+    justify-content: space-between;
+    .register-first {
+      width: calc(50% - 18px);
+    }
+    .register-last {
+      width: calc(50% - 18px);
+    }
+    .input-container {
+      flex-shrink: 2;
+    }
+  }
+
+  .register-submit {
+    height:30px;
+    margin-bottom: 0;
+    margin-top: .5em;
+    background-color: $hightlight;
+    color: white;
+    box-sizing: content-box;
+    font-weight: bold;
+  }
+
+  .card-title {
+    color: white ;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+}

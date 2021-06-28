@@ -1,0 +1,29 @@
+.landing-container {
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  .illustration {
+    margin-top: 2em;
+
+    img {
+      max-width: 369px;
+    }
+  }
+
+  .logo {
+    img {
+      max-width: 257px;
+    }
+  }
+
+  .copy {
+    color: white;
+    font: normal 18px 'Space Mono';
+    margin-top: 1em;
+    text-align: center;
+  }
+}

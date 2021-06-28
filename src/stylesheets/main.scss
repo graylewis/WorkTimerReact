@@ -1,0 +1,21 @@
+@import './global';
+
+// COMPONENTS
+// ====================
+// MOLECULES
+@import './components/molecules/cta';
+
+// ORGANISMS
+@import './components/organisms/login';
+@import './components/organisms/register';
+@import './components/organisms/timer';
+
+// PAGES
+@import './pages/landing';
+@import './pages/login';
+@import './pages/timerPage';
+
+// ABSTRACTS
+// ====================
+// FONTS
+@import 'https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap'
